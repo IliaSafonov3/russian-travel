@@ -9,14 +9,6 @@
 @import url('../blocks/place/place.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/cover/cover.css');
-@import url('..');
-.text-normal{
-    list-style: none;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    color: white;
-    }
 
 
 

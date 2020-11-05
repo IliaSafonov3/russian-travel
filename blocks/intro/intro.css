@@ -1,6 +1,6 @@
-@import url('../intro/intro__list/intro__list.css');
-@import url('../intro/intro__text/intro__text.css');
-@import url('../intro/intro__title/intro__title.css');
+@import url('../intro/__list/intro__list.css');
+@import url('../intro/__text/intro__text.css');
+@import url('../intro/__title/intro__title.css');
 .intro{
     min-height: 429px;
 }

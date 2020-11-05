@@ -1,5 +1,5 @@
-@import url('../header/header__lang-title/header__lang-title.css');
-@import url('../header/header__logo/header__logo.css');
+@import url('../header/__lang-title/header__lang-title.css');
+@import url('../header/__logo/header__logo.css');
 .header{
     height: 48px;
     display: flex;

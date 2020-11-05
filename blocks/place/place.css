@@ -1,10 +1,10 @@
-@import url('../place/place__image/place__image.css');
-@import url('../place/place__link/place__link.css');
-@import url('../place/place__paragraph/place__paragraph.css');
-@import url('../place/place__title/place__title.css');
-@import url('../place/place__url-heading/place__url-heading.css');
-@import url('../place/place__website/place__website.css');
-@import url('../place/place__paragraphs/place__paragraphs.css');
+@import url('../place/__image/place__image.css');
+@import url('../place/__link/place__link.css');
+@import url('../place/__paragraph/place__paragraph.css');
+@import url('../place/__title/place__title.css');
+@import url('../place/__url-heading/place__url-heading.css');
+@import url('../place/__website/place__website.css');
+@import url('../place/__paragraphs/place__paragraphs.css');
 .place{
     width: 100%;
     display: flex;

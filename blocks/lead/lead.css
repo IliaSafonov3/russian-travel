@@ -1,7 +1,7 @@
-@import url('../lead/lead__caption/lead__caption.css');
-@import url('../lead/lead__image/lead__image.css');
-@import url('../lead/lead__subtitle/lead__subtitle.css');
-@import url('../lead/lead__title/lead__title.css');
+@import url('../lead/__caption/lead__caption.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__title/lead__title.css');
 @media screen and (min-width: 320px){
     .lead{
         width: 100%;
