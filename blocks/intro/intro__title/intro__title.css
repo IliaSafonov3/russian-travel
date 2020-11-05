@@ -1,0 +1,28 @@
+.intro__title{
+    font-weight: 900;
+    color: white;
+    margin: 0 0 40px;
+}
+@media screen and (min-width: 320px){
+    .intro__title{
+        width: calc(100% - 32px);
+        font-size: 32px;
+        line-height: 35px;
+        padding-left: 16px;
+    }
+}
+@media screen and (min-width: 768px){
+    .intro__title{
+        font-size: 54px;
+        line-height: 58px;
+        width: 720px;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width: 1024px){
+    .intro__title{
+        font-size: 54px;
+        line-height: 58px;
+        width: 690px;
+    }
+}

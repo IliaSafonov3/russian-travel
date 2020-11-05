@@ -1,0 +1,32 @@
+.place__title{
+    font-weight: 900;
+    color: white;
+}
+@media screen and (min-width: 320px){
+    .place__title{
+        width: 288px;
+        font-size: 32px;
+        line-height: 36px;
+        margin: 0 0 0 16px;
+    }
+}
+@media screen and (min-width: 768px){
+    .place__title{
+        margin: 0;
+        width: 320px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .place__title{
+        width: 440px;
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .place__title{
+        width: 460px;
+    }
+}

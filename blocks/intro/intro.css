@@ -1,0 +1,22 @@
+@import url('../intro/intro__list/intro__list.css');
+@import url('../intro/intro__text/intro__text.css');
+@import url('../intro/intro__title/intro__title.css');
+.intro{
+    min-height: 429px;
+}
+
+@media screen and (min-width: 768px){
+    .intro{
+        width: 720px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .intro{
+        width: 928px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .intro{
+    width: 984px;
+    }
+}

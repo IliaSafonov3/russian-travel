@@ -1,0 +1,19 @@
+.root{
+    background-color: #2A2C2F;
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    min-width: 320px;
+}
+@media screen and (min-width: 320px){
+    .root{
+    padding-top: 16px;
+    }
+  }
+  @media screen and (min-width: 764px){
+    .root{
+    padding-top: 28px;
+    }
+  }

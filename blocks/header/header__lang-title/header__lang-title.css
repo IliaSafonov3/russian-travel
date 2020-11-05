@@ -1,0 +1,22 @@
+.header__lang-title{
+    width: 30px;
+    height: 28px;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .header__lang-title:hover{
+    text-decoration: underline;
+  }
+  @media screen and (min-width: 320px){
+    .header__lang-title{
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  @media screen and (min-width: 764px){
+    .header__lang-title{
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }

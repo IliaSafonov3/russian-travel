@@ -1,0 +1,13 @@
+  @media screen and (min-width: 320px){
+    .header__lang-title{
+      width: 142px;
+      height: 42px;
+    }
+  }
+  @media screen and (min-width: 764px){
+    .header__lang-title{
+      width: 176px;
+      height: 52px;
+    }
+  }
+  
