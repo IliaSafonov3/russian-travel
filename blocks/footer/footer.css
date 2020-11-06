@@ -1,6 +1,3 @@
-@import url('../footer/__copyright/footer__copyright.css');
-@import url('../footer/__link/footer__link.css');
-@import url('../footer/__links/footer__links.css');
 .footer {
     display: flex;
     justify-content: space-between;
@@ -13,11 +10,12 @@
         padding-left: 16px;
     }
 }
-@media screen and (min-width: 728px){
+@media screen and (min-width: 768px){
     .footer{
         flex-direction: row;
         width: 720px;
         margin-top: 88px;
+        padding-left: 0;
     }
 }
 @media screen and (min-width: 1024px){

@@ -8,6 +8,7 @@
 }
 @media screen and (min-width: 320px){
     .footer__link{
+        display: inline;
         font-size: 22px;
         line-height: 22px;
         margin-bottom: 32px;

@@ -1,4 +1,3 @@
-@import url('../photo-grid/__item/photo-grid__item.css');
 .photo-grid{
     display: grid;
     justify-content: center;
@@ -8,7 +7,7 @@
     .photo-grid{
         width: 288px;
         grid-template-columns: 288px;
-        grid-template-rows: repeat(10,216px);
+        grid-template-rows: repeat(12,216px);
         gap: 12px;
         margin-top: 64px;
     }
@@ -17,7 +16,7 @@
     .photo-grid{
         width: 720px;
         grid-template-columns: repeat(2,352px);
-        grid-template-rows: repeat(5,264px);
+        grid-template-rows: repeat(6,264px);
         gap: 16px;
         margin-top: 88px;
     }
