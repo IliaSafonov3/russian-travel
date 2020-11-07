@@ -14,8 +14,8 @@
    <header class="header">
      <img class="header__logo" src="./image/header-logo.svg" alt="Россия">
        <div>
-         <a class="header__lang-link header__lang-link_lang-ru" href="#">Ru</a>
-         <a class="header__lang-link header__lang-link_lang-en" href="#">En</a>
+         <a class="header__lang-link header__lang-link_lang-active" href="#">Ru</a>
+         <a class="header__lang-link header__lang-link_lang-disabled" href="#">En</a>
        </div>
     </header>
     <main class="main-content">
@@ -57,7 +57,7 @@
             <img class="place__image" src="./image/__imagekosa.png" alt="Куршская коса">
           </div>
           <div>
-            <div class="place__website">
+            <div class="place__website place__website_height-high">
               <p class="place__url-heading">URL</p>
               <a  class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
@@ -73,7 +73,7 @@
               <img class="place__image" src="./image/__imagekolski.png" alt="Кольский">
           </div>
           <div>
-            <div class="place__website">
+            <div class="place__website place__website_height-low">
                 <p class="place__url-heading">URL</p>
                 <a  class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
             </div>
@@ -89,7 +89,7 @@
             <img class="place__image" src="./image/__imagealtai.png" alt="Алтай">
           </div>
           <div>
-            <div class="place__website">
+            <div class="place__website place__website_height-low">
               <p class="place__url-heading">URL</p>
               <a  class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
@@ -105,7 +105,7 @@
             <img class="place__image" src="./image/__imagezimnii.png" alt="Зимний Байкал">
           </div>
           <div>
-            <div class="place__website">
+            <div class="place__website place__website_height-high">
               <p class="place__url-heading">URL</p>
               <a  class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
@@ -121,7 +121,7 @@
             <img class="place__image" src="./image/__imagekarel.png" alt="Карелия">
           </div>
           <div>
-            <div class="place__website">
+            <div class="place__website place__website_height-low">
               <p class="place__url-heading">URL</p>
               <a  class="place__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
             </div>
@@ -141,12 +141,14 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-        <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-        <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+      <nav >
+        <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">&#169; 2020. Сафонов Илья</p>
     </footer>

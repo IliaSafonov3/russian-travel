@@ -7,18 +7,21 @@
 @media screen and (min-width: 768px){
     .place__paragraphs{
         margin-left: 28px;
-        width: 352px;
+        max-width: 352px;
+        width: 100%;
     }
 }
 @media screen and (min-width: 1024px){
     .place__paragraphs{
         margin-left: 32px;
-        width: 456px;
+        max-width: 456px;
+        width: 100%;
     }
 }
 @media screen and (min-width: 1280px){
     .place__paragraphs{
         margin-left: 40px;
-        width: 484px;
+        max-width: 484px;
+        width: 100%;
         }
 }

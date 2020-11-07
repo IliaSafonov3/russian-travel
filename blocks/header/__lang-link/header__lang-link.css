@@ -7,15 +7,15 @@
 .header__lang-link:first-of-type{
     margin-right: 18px;
 }
-  @media screen and (min-width: 320px){
+@media screen and (min-width: 320px){
     .header__lang-link{
-      font-size: 18px;
-      line-height: 22px;
+        font-size: 18px;
+        line-height: 22px;
     }
   }
-  @media screen and (min-width: 764px){
+@media screen and (min-width: 764px){
     .header__lang-link{
-      font-size: 24px;
-      line-height: 28px;
+        font-size: 24px;
+        line-height: 28px;
     }
   }
